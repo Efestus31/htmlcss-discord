@@ -22,13 +22,29 @@ img{max-width: 100%;}
     padding: 10px;
     border-radius: 999px
 }
+
+.p-y{
+    padding-top: 10rem 0rem;
+    margin-top: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.l-h{
+    line-height: 1.8rem;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
 /* #endregion utility */
 
 /* #region debug */
 .debug *{
     border: dashed 2px;
 } 
-
 /* #endregion debug */
 
 /* #region header */
@@ -43,12 +59,6 @@ img{max-width: 100%;}
     width: 100%;
     margin: auto;
     color: white;
-}
-.d-flex{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
 }
 
 .h-100{
@@ -79,6 +89,7 @@ img{max-width: 100%;}
     flex-direction: column;
     margin: 0%
 }
+/* #endregion background*/
 #heading{
     margin: 0 auto;
     color: white;
@@ -109,52 +120,47 @@ img{max-width: 100%;}
     margin: 12px;
 
 }
-/* #endregion background*/
 
-/* #region container 2 */
-.container-w{
+/* #region frog*/
+.container-frog{
     background-color: #ffffff;
-    height: 200px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: row-reverse;
 }
-.pink-s{
-    background-color: #ffc0cb;
-    height: 80%;
-    width: 25%;
-    margin: 0 ;
+#frog{
+    margin: 10rem;
 }
-.cyan-s{
-    background-color: #1e90ff;
-    height: 80%;
-    width: 50%;
-    margin: 0 ;
+#place{
+    margin: 10rem;
 }
-/* #endregion container 2/4 */
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+/* #endregion frog */
 
 /* #region container 3 */
 .container-g{
     background-color: #d3d3d3;
-    height: 200px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
 }
 .pink-s{
-    background-color: #ffc0cb;
-    height: 80%;
-    width: 25%;
-    margin: 0 ;
+    /* background-color: #ffc0cb; */
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 .cyan-s{
-    background-color: #1e90ff;
-    height: 80%;
-    width: 50%;
-    margin: 0 ;
+    /* background-color: #1e90ff; */
+    height: 100%;
+    width: 100%;
 }
 /* #endregion container 3 */
 
@@ -169,7 +175,7 @@ img{max-width: 100%;}
 
 }
 #green-s{
-    background-color: #228b22;
+    /* background-color: #228b22; */
     height: 90%;
     width: 60%;
     margin: 0 auto;
